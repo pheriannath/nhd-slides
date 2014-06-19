@@ -50,17 +50,24 @@ $mainFontSize: 24px;
 }
 // ---------------------------------------------
 
-.reveal {
-	p, ol, ul, blockquote, pre {
-		letter-spacing: normal;
-		margin-bottom: 20px;
-		line-height: 1.4
-	}
-}
-
 // Theme template ------------------------------
 @import "../../bower_components/reveal.js/css/theme/template/theme";
 // ---------------------------------------------
 
 // See ../../bower_components/reveal.js/css/theme/README.md
 // for further explanations on how reveal.js themes work.
+
+
+//additions
+.reveal {
+        p, ol, ul, blockquote, pre {
+                letter-spacing: normal;
+                margin-bottom: 20px;
+                line-height: 1.4
+        }
+
+        h2,h3,h4,h5,h6 {
+                //color: #367ef2;
+        }
+}
+
