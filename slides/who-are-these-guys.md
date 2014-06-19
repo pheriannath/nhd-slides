@@ -2,7 +2,7 @@
 
 ### Mike Katsufrakis [@pheriannath](http://www.twitter.com/pheriannath)
 
-Front-End Developer @ Liveaxle, Co-Founder Co-Optimus, gamer, cat lover
+Sr. Front-End Developer @ Liveaxle, Co-Founder Co-Optimus, gamer, cat lover
 
 ### Jay Mallison [@jay_mallison](http://www.twitter.com/jay_mallison)
 
