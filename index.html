@@ -1,44 +1,202 @@
 <!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Nhd-slides by pheriannath</title>
+<html lang="en">
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Nhd-slides</h1>
-        <p>Slides for the Nearly-Headless Drupal talk (6/18/2014)</p>
+    <head>
+        <meta charset="utf-8">
 
-        <p class="view"><a href="https://github.com/pheriannath/nhd-slides">View the Project on GitHub <small>pheriannath/nhd-slides</small></a></p>
+        <title>#NearlyHeadlessDrupal</title>
 
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
-        <ul>
-          <li><a href="https://github.com/pheriannath/nhd-slides/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/pheriannath/nhd-slides/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/pheriannath/nhd-slides">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <h1>
-<a name="nhd-slides" class="anchor" href="#nhd-slides"><span class="octicon octicon-link"></span></a>nhd-slides</h1>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-<p>Slides for the Nearly-Headless Drupal talk.</p>
-      </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/pheriannath">pheriannath</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
+        <link rel="stylesheet" href="bower_components/reveal.js/css/reveal.min.css">
     
-  </body>
+        <link rel="stylesheet" href="css/theme.css" id="theme">
+    
+
+        <!-- For syntax highlighting -->
+        <link rel="stylesheet" href="bower_components/reveal.js/lib/css/zenburn.css" id="highlight-theme">
+
+        <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+        <script>
+          if( window.location.search.match( /print-pdf/gi ) ) {
+            var link = document.createElement( 'link' );
+                link.rel = 'stylesheet';
+                link.type = 'text/css';
+                link.href = 'bower_components/reveal.js/css/print/pdf.css';
+                document.getElementsByTagName( 'head' )[0].appendChild( link );
+            }
+        </script>
+
+        <!--[if lt IE 9]>
+        <script src="lib/js/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+
+        <div class="reveal">
+
+            <div class="slides">
+
+                
+                    
+                        
+    <section data-markdown="slides/index.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/who-are-these-guys.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/the-goal.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/it-happened-one-day.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/headless-drupal.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/one-big-problem.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/nearlyheadlessdrupal.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/so-what-is-this-good-for.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/enough-talk-what-did-you-build.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/thats-crazy-but-what-about-drupal.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/details-details.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/content-strategy.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/demo-time.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/what-have-you-done-for-me-lately.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/challenges.md"></section>
+
+
+                    
+                    
+                
+            </div>
+
+        </div>
+
+        <script src="bower_components/reveal.js/lib/js/head.min.js"></script>
+        <script src="bower_components/reveal.js/js/reveal.min.js"></script>
+        <script>
+            // Configure Reveal
+            // Full list of configuration options available here:
+            // https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                controls: true,
+                progress: true,
+                history: true,
+                center: true,
+
+                theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+                transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+                // Optional libraries used to extend on reveal.js
+                dependencies: [
+                    { src: 'bower_components/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                    { src: 'bower_components/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'bower_components/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'bower_components/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                    { src: 'bower_components/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+                    { src: 'bower_components/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+                    // { src: 'bower_components/reveal.js/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+                    //{ src: 'bower_components/reveal.js/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+
+                    { src: 'js/loadhtmlslides.js', condition: function() { return !!document.querySelector( '[data-html]' ); } }
+                ]
+            });
+        </script>
+
+    </body>
+
 </html>
