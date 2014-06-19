@@ -6,7 +6,7 @@ Front-End Developer @ Liveaxle, Co-Founder Co-Optimus, gamer, cat lover
 
 ### Jay Mallison [@jay_mallison](http://www.twitter.com/jay_mallison)
 
-Web Developer @ Liveaxle, runs a recording studio from his work desk, makes cars go vroom
+Sr. Web Developer @ Liveaxle, runs a recording studio from his work desk, makes cars go vroom
 
 ![Liveaxle](../images/liveaxle.png)
 
