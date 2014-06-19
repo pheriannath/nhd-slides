@@ -11,6 +11,11 @@
   font-weight: normal;
   font-style: normal; }
 
+.reveal p, .reveal ol, .reveal ul, .reveal blockquote, .reveal pre {
+  letter-spacing: normal;
+  margin-bottom: 20px;
+  line-height: 1.4; }
+
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
@@ -26,7 +31,7 @@ body {
 
 .reveal {
   font-family: "Lato", sans-serif;
-  font-size: 36px;
+  font-size: 24px;
   font-weight: normal;
   letter-spacing: -0.02em;
   color: #eeeeee; }
@@ -45,7 +50,7 @@ body {
 .reveal h4,
 .reveal h5,
 .reveal h6 {
-  margin: 0 0 20px 0;
+  margin: 20px 0;
   color: #eeeeee;
   font-family: "League Gothic", Impact, sans-serif;
   line-height: 0.9em;

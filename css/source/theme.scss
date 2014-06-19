@@ -39,7 +39,8 @@ $heading1TextShadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b
 // $headingLetterSpacing: -0.03em;
 // $headingTextTransform: none;
 // $selectionBackgroundColor: #e0ad52;
-// $mainFontSize: 30px;
+$headingMargin: 20px 0;
+$mainFontSize: 24px;
 // See ../../bower_components/reveal.js/css/theme/template/settings.scss for the full list.
 // ---------------------------------------------
 
@@ -48,6 +49,14 @@ $heading1TextShadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b
         @include radial-gradient( rgba(28,30,32,1), rgba(85,90,95,1) );
 }
 // ---------------------------------------------
+
+.reveal {
+	p, ol, ul, blockquote, pre {
+		letter-spacing: normal;
+		margin-bottom: 20px;
+		line-height: 1.4
+	}
+}
 
 // Theme template ------------------------------
 @import "../../bower_components/reveal.js/css/theme/template/theme";
