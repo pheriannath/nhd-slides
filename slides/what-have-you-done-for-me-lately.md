@@ -1,6 +1,6 @@
 ##  What have you done for me lately?
 
-* Views Datasource is a cool idea, but it's field handling is fundamentally flawed. 
+* Views Datasource is a cool idea, but its field handling is fundamentally flawed. 
 * How do we make Drupal talk to Google?
 * Can we optimize the content Drupal renders for Google?
 

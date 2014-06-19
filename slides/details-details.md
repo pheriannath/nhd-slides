@@ -2,12 +2,13 @@
 
 In the beginning...
 
-Such Code:
+Such Drupal Code:
 
 * Drupal 7
 * Nodequeue
 * Views
 * Views Datasource (I had to bandaid it)
 * CORS (because Cross Domain AJAX needs security)
-* Menu Node
+* Field Collection
+* Pathauto
 * Menu Node Views
