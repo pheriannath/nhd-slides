@@ -1,9 +1,8 @@
 ##  So What is This Good For?
 
-Lots of things! (We hope).
+Empowering your front-end developers! Additionally:
 
 * Integrating Javascript MVC frameworks with Drupal
+* Allowing greater freedom of choice with JS libraries
 * Providing rendered, flat HTML to search engines
-* Now you can animate ALL OF THE THINGS (Our designers love this)
-* Write the HTML you want to see, without theme hooks...
-* ...so no more *__ohmygod--thisishorrible--whoengineeredthis.tpl.php__* files!
+* Writing the HTML you want to see, without theme hooks
