@@ -1,12 +1,12 @@
 ##  Who are these guys?!
 
-### Mike Katsufrakis [@pheriannath](http://www.twitter.com/pheriannath)
-
-Sr. Front-End Developer @ Liveaxle, Co-Founder Co-Optimus, gamer, cat lover
-
 ### Jay Mallison [@jay_mallison](http://www.twitter.com/jay_mallison)
 
 Sr. Web Developer @ Liveaxle, runs a recording studio from his work desk, makes cars go vroom
+
+### Mike Katsufrakis [@pheriannath](http://www.twitter.com/pheriannath)
+
+Sr. Front-End Developer @ Liveaxle, Co-Founder Co-Optimus, gamer, cat lover
 
 ![Liveaxle](images/liveaxle.png)
 
