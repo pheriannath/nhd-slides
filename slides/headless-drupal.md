@@ -8,6 +8,6 @@ Put more verbosely:
 >allowing front end developers the freedom to use next generation javascript 
 >frameworks (Angular, Ember, etc) to build advanced AJAX based applications. 
 
-Take what Drupal does best (Data), mix in a JSON API, then let the frontend engineers go nuts. (We &lt;3 AngularJS)
+Take what Drupal does best (Data), mix in a JSON API, then let the frontend devs go nuts. (We &lt;3 AngularJS)
 
 Problem solved! Let's all go get drinks.

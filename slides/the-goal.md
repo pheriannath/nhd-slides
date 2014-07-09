@@ -1,11 +1,9 @@
-#  The Goal
+#  Our Goals
 
-Assume the following:
-
-* Frontend developers (usually) don't want to write PHP
-* Drupal can't keep up with the pace of frontend innovation
-* We want to stay relevant, and we want to keep Drupal relevant
-* We want it now. (we're not waiting for Drupal 8)
+* Enable frontend developers to avoid writing backend code 
+* Help Drupal stay relevant by keeping up with the pace of frontend innovation
+* We want to stay relevant, too!
+* We're not waiting for Drupal 8
 
 Let's give frontend developers the ability to skate where the puck is going. No part of the Internet moves faster.
 
