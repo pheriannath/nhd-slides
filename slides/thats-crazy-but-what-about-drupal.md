@@ -1,9 +1,7 @@
-##  That's Crazy! But What About Drupal?
+##  Ok, But What About Drupal?
 
-Jay sat down, had a talk with Drupal... "You're going to behave, even if I have to code on you to make it happen".
+I knew it might be a bumpy ride, but I was committed to helping Drupal along in this endeavor.
 
-Turns out, there has been much coding. (but more on that later).
+One long night later - I had Drupal 7 + contrib providing JSON to some custom Angular services I wrote, populating almost the entire site with test content. It wasn't perfect, but it was functional.
 
-One *__very__* long night later - I had Drupal 7 providing JSON to some custom Angular services I wrote, populating almost the entire site with test content.
-
-Yes - this was working overnight. Turns out, the way we approached this, it's not difficult.
+I've had to do quite a bit of coding in contrib, but it has gone much better than my initial expectations.
